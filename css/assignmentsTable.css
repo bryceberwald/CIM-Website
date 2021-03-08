@@ -1,0 +1,32 @@
+.Assignments_Table {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+@media screen and (max-width: 480px) {
+.Assignments_Table {
+    margin-left: 5px;
+    margin-right: 0%;
+}
+}
+
+.Assignments_Table td {
+    background-color: rgb(112, 118, 124);
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 30px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.description {
+    width: 300px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.link {
+    width: 80px;
+    text-align: center;
+}

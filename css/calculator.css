@@ -1,0 +1,72 @@
+#Calc_Container {
+    width: 100vw;
+    /* margin-left: 37px; */
+    visibility: hidden;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+@media screen and (max-width: 480px) {
+    #Calc_Container {
+        width: 100vw;
+        /* margin-left: 37px; */
+        visibility: hidden;
+        margin-left: 50px;
+        margin-right: 0%;
+    }
+}
+
+#Calc_Container table {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+    width:300px; 
+}
+
+#Calc_Container .Output {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+#Calc_Container table tr td {
+    width: 80px;
+    height: 100px;
+    text-align: center;
+
+    background-color: rgb(52, 52, 95);
+    color: white;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+#Calc_Container table tr td.key:hover {
+    background-color: rgb(93, 93, 128);
+}
+
+
+#Calc_Container label {
+    color: white;
+    font-family: monospace;
+}
+
+#Calc_Container input {
+    background-color: rgb(119, 121, 156);
+    width: 50px;
+}
+
+#Calc_Container .Output_Row1:hover {
+    background-color: black;
+}

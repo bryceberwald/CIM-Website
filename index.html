@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryce Berwald's Website</title>
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <link href="./css/assignmentsTable.css" rel="stylesheet" type="text/css" />
+    <link href="./css/calculator.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat+Alternates&family=Signika&family=Yanone+Kaffeesatz:wght@300;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="Container" id="Container">
+        <div class="B_Logo"></div>
+        <div class="Menu_Logo" id="Menu_Logo"></div>
+
+        <div class="Navigation_Menu" id="Navigation_Menu">
+            <h2 class="close_option" id="close_option">X</h2><br />
+            <p id="Home_Button">Home</p>
+            <p id="News_Button">News</p>
+            <p id="Projects_Button">Assignments</p>
+            <p id="Calc_Button">Calculator</p>
+            <p id="More_Button">More</p>
+        </div>
+
+        <div class="Header">
+        </div>
+
+        <div class="Line_Across"></div>
+
+        <div class="Content_Container">
+            <div class="Home_Display" id="Home_Display">
+                <h1>Home</h1>
+                <p>This is my CIM Home Page!</p>
+            </div>
+
+            <div class="News_Display" id="News_Display">
+                <h1>News</h1>
+                <h2>March 7th 2021</h2>
+                <p>Finished Chapter 4's Tutorial from pages 90+ covering "Inheritance" and uploaded it under my <br />
+                     'Assignments' link.</p>
+                <h2>March 6th 2021</h2>
+                <p>Made a couple of updates to my CIM website. I added a little bit of JavaScript to my Navigation Menu <br />
+                    and I also built a calculator through HTML, CSS & JS while utilizing HTML's table tags. I uploaded it <br />
+                    under the 'Calculator' link which can be found in the Navigation menu icon at the top.
+                </p>
+                <h2>March 5th 2021</h2>
+                <p>Finished Chapter 3's Tutorial from pages 70-84 and uploaded it under my 'Assignments' link.</p>
+                <h2>March 3rd 2021</h2>
+                <p>Finished the basis for my CIM website, which you are experiencing right now! I hope to add much more <br />
+                    functionality as time progresses through the semester.
+                </p>
+                <h2>February 26th 2021</h2>
+                <p>Finished Chapter 2's Tutorial from pages 27-39 and uploaded it under my 'Assignments' link.</p>
+            </div>
+
+            <div class="Projects_Display" id="Projects_Display">
+                <h1>Assignments</h1>
+                <!-- <p>Chapter 2 Tutorial (Pages 27-39): <a href="./tutorials/02/index.html">Click Me</a></p>
+                <p>Chapter 3 Tutorial (Pages 70-84): <a href="./tutorials/03/selector_basics.html">Click Me</a></p>
+                <p>Chapter 4 Tutorial (Pages 90+): &nbsp; &nbsp; <a href="./tutorials/04/inheritance.html">Click Me</a>&nbsp; &nbsp;</p> -->
+
+                <table border="1" class="Assignments_Table">
+                    <tr>
+                        <td class="description">Chapter 2 Tutorial (Pages 27-39):</td>
+                        <td class="link"><a href="./tutorials/02/index.html">Click Me</a></td>
+                    </tr>
+                    <tr>
+                        <td class="description">Chapter 3 Tutorial (Pages 70-84):</td>
+                        <td class="link"><a href="./tutorials/03/selector_basics.html">Click Me</a></td>
+                    </tr>
+                    <tr>
+                        <td class="description">Chapter 4 Tutorial (Pages 90+):</td>
+                        <td class="link"><a href="./tutorials/04/inheritance.html">Click Me</a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="More_Display" id="More_Display">
+                <h1>More</h1>
+                <p>This page is currently under construction!</p>
+            </div>
+
+            <div class="Calc_Display" id="Calc_Container">
+                <br />
+                <table border="1">
+                    <tr class="Ouput-Row1">
+                        <td colspan="5" class="Output" id="Result"></td>
+                    </tr>
+                    <tr class="Output_Row2">
+                        <td colspan="5" class="Output" id="Result2"></td>
+                    </tr>
+                    <tr id="Calc_Row1">
+                        <td id="One" class="key">1</td>
+                        <td id="Two" class="key">2</td>
+                        <td id="Three" class="key">3</td>
+                        <td id="Add" class="key">+</td>
+                        <td id="Multiply" class="key">*</td>
+                    </tr>
+    
+                    <tr id="Calc_Row2">
+                        <td id="Four" class="key">4</td>
+                        <td id="Five" class="key">5</td>
+                        <td id="Six" class="key">6</td>
+                        <td id="Subtract" class="key">-</td>
+                        <td id="Divide" class="key">/</td>
+                    </tr>
+    
+                    <tr id="Calc_Row3">
+                        <td id="Seven" class="key">7</td>
+                        <td id="Eight" class="key">8</td>
+                        <td id="Nine" class="key">9</td>
+                        <td id="Zero" class="key">0</td>
+                        <td id="X_Squared" class="key">x&#178</td>
+                    </tr>
+    
+                    <tr id="Calc_Row4">
+                        <td id="Clear" class="key" colspan="2">Clear</td>
+                        <td id="Equals" class="key" colspan="2">=</td>
+                        <td id="X" class="key">x</td>
+                    </tr>
+                    <script src="./js/calculator.js"></script>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./js/Nav_Listeners.js"></script>
+</body>
+</html>

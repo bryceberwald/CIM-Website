@@ -1,0 +1,212 @@
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+html, body {
+    overflow-x: hidden !important;
+}
+
+.Container {
+    /* width: 400px; */
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    background-color: black;
+}
+
+.Container .B_Logo {
+    width: 150px;
+    height: 139px;
+
+    float: right;
+    background-image: url("../assests/b_logo.jpg");
+}
+
+.Container .Menu_Logo {
+    width: 80px;
+    height: 82px;
+    background-image: url("../assests/menu_icon.png");
+
+    float: left;
+}
+
+.Container .Navigation_Menu {
+    width: 200px; 
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(29, 29, 29);
+
+    text-align: center;
+    margin-left: -210px;
+    transition: margin-left 1s;
+    z-index: 5;
+}
+
+.Container .Navigation_Menu p {
+    color: white;
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+}
+
+.Container .Navigation_Menu .close_option {
+    margin: 0%;
+    padding: 2%;
+    float: right;
+    color: rgb(153, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Container .Navigation_Menu .close_option:hover {
+    color: rgb(197, 94, 94);
+}
+
+.Container .Navigation_Menu p:hover {
+    color:rgb(153, 153, 153);
+}
+
+.Container .Header {
+    width: 230px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.Container .Header h1 {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+}
+
+.Container .Line_Across {
+    /* width: 400px; */
+    width: 100vw;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+    border-top-color: grey;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.Container .Content_Container {
+    /* width: 400px; */
+    width: 100vw;
+    height: 1000px;
+    background-color: rgb(37, 35, 35);
+}
+
+.Container .Content_Container .Home_Display {
+    /* width: 400px; */
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+
+}
+
+.Container .Content_Container .Home_Display h1 {
+    text-align: center;
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: underline;
+}
+
+.Container .Content_Container .Home_Display p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container .Content_Container .News_Display {
+    /* width: 400px; */
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.Container .Content_Container .News_Display h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: underline;
+
+}
+
+.Container .Content_Container .News_Display p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container .Content_Container .News_Display h2 {
+    text-align: center;
+    color: rgb(177, 169, 169);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.Container .Content_Container .Projects_Display {
+    /* width: 400px; */
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.Container .Content_Container .Projects_Display h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: underline;
+
+}
+
+.Container .Content_Container .Projects_Display a {
+    color: rgb(12, 18, 24);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bolder;
+}
+
+.Container .Content_Container .Projects_Display a:hover {
+    color: rgb(197, 207, 226);
+    font-weight: bolder;
+}
+
+.Container .Content_Container .Projects_Display p {
+    text-align: center;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.Container .Content_Container .More_Display {
+    /* width: 400px; */
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.Container .Content_Container .More_Display h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: underline;
+
+}
+
+.Container .Content_Container .More_Display p {
+    text-align: center;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}

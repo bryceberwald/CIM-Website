@@ -12,6 +12,4 @@ This is my CIMW 140 (CSS & Reponsive Web Design Course)
 
 * Used JavaScript to build a Calculator and add Event Listeners to the Navigation menu.
 
-****
-****
-**** This Website is my Spring 2021 Class Website to turn in weekly assignments.
+**** This Website is my Spring 2021 Class Website to turn in weekly assignments. ****
